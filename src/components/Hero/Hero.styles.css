@@ -1,0 +1,63 @@
+.hero {
+  @apply flex;
+  @apply relative;
+  @apply text-white;
+}
+
+.hero > * {
+  @apply relative z-10;
+}
+
+.hero h1 {
+  @apply uppercase;
+}
+
+.hero > section {
+  @apply max-w-screen-md;
+}
+
+.hero section + section {
+  @apply pb-24;
+  @apply border-b-2 border-skin-fg;
+}
+
+.hero p.lead {
+  @apply text-center;
+  @apply font-display font-bold text-3xl;
+  @apply mt-16;
+}
+
+.hero p {
+  @apply text-xl lg:text-2xl;
+  @apply leading-snug;
+  @apply max-w-screen-md;
+  @apply mx-auto;
+}
+
+.hero .action {
+  @apply text-center;
+  @apply mt-8;
+}
+
+.hero .action > * {
+  @apply rounded-full;
+  @apply py-4 px-8;
+  @apply mx-auto;
+  @apply inline-flex items-center justify-center;
+  @apply border-0;
+  @apply bg-skin-primary;
+  @apply text-skin-fg-focus;
+  @apply font-sans font-semibold text-2xl;
+  @apply transition-all;
+  @apply focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white
+}
+
+.heroBackground {
+  @apply absolute z-0 overflow-hidden;
+  @apply inset-0;
+  @apply bg-black;
+  @apply bg-cover bg-center;
+}
+
+.heroBackground + * {
+}

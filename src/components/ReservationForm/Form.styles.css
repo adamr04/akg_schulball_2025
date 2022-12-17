@@ -1,0 +1,148 @@
+.form {
+  @apply grid grid-cols-1 gap-6;
+  @apply max-w-screen-sm;
+  @apply mx-auto mb-6;
+  @apply font-medium;
+}
+.form section,
+.form form {
+  @apply grid gap-6;
+}
+
+.form h2 {
+  @apply mt-4;
+  @apply font-sans text-3xl;
+}
+.form h3 {
+  @apply mb-0;
+  @apply font-sans text-2xl font-semibold;
+}
+
+.item {
+  @apply relative;
+  @apply grid grid-cols-1 gap-6;
+  @apply p-8;
+  @apply rounded-xl;
+  @apply bg-skin-base-flash;
+  @apply transition-all;
+  @apply hover:shadow-2xl;
+}
+
+.item.--muted {
+  @apply bg-transparent;
+  @apply hover:shadow-none;
+}
+
+.form button {
+  @apply rounded-full;
+  @apply py-4 px-8;
+  @apply inline-flex items-center justify-center;
+  @apply bg-skin-base-flash;
+  @apply text-skin-primary-text;
+  @apply font-sans font-semibold text-2xl;
+  @apply transition-all;
+}
+
+.form button.addItem {
+  @apply p-8;
+  @apply rounded-xl;
+  @apply transition-all;
+  @apply hover:shadow-xl;
+}
+
+.form button.removeItem {
+  @apply py-2 px-2;
+  @apply bg-transparent;
+  @apply absolute;
+  @apply top-2 right-2;
+  @apply text-current;
+}
+
+.form button[type=submit] {
+  @apply bg-skin-primary;
+  @apply text-skin-fg-focus;
+  @apply w-full;
+}
+
+.form button[disabled] {
+  @apply opacity-60;
+  @apply cursor-not-allowed;
+}
+
+.form button[type=submit] svg {
+  @apply animate-spin;
+  @apply -ml-1 mr-3;
+  @apply h-6 w-6;
+}
+
+.form *:not[.hidden] {
+  @apply block;
+}
+
+.form label.--inline {
+  @apply flex items-center space-x-3;
+  @apply font-semibold text-lg;
+  @apply mb-2 md:mb-0;
+}
+
+.form label.--inline:last-child {
+  @apply border-t-2 md:border-t-0 md:border-l-2;
+  @apply pt-4 md:pl-8 md:pt-0;
+}
+
+.form label.--inline span {
+  @apply mt-1;
+}
+
+.form label.--inline > input {
+  @apply w-5 h-5;
+  @apply border-2 border-skin-fg;
+  @apply mt-0;
+}
+
+.form label input[type='checkbox']:checked, .form label input[type='radio']:checked {
+  @apply bg-black;
+  @apply text-skin-fg-focus;
+}
+
+.form label input,
+.form label textarea {
+  @apply block;
+  @apply w-full;
+  @apply px-0;
+  @apply text-xl;
+  @apply font-semibold;
+  @apply bg-transparent;
+  @apply border-0 border-b-2 border-skin-base-muted;
+  @apply focus:ring-0 focus:border-skin-fg;
+}
+
+.form textarea {
+  @apply h-32;
+}
+.form textarea[readOnly] {
+  @apply bg-skin-base;
+  @apply p-4;
+  @apply focus:ring-0 focus:border-skin-base;
+}
+
+.form label input[type=hidden],
+.form label .invisble {
+  @apply hidden;
+}
+
+.feedback {
+  @apply flex flex-col items-center justify-center;
+  @apply rounded-lg;
+  @apply p-8;
+}
+
+.feedback.--error {
+  @apply bg-rose-600;
+  @apply text-white;
+}
+
+.feedback > p {
+  @apply text-xl;
+  @apply font-semibold;
+}

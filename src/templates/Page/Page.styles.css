@@ -1,0 +1,11 @@
+.article {
+  @apply mb-8;
+}
+
+.article a,
+.article pre,
+.article code,
+.article kbd,
+.article samp {
+  @apply break-all whitespace-pre-wrap;
+}
