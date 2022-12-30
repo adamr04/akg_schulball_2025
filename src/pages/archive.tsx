@@ -22,6 +22,14 @@ const Archive: React.FC<PageProps> = ({ data, location }) => {
           copy="Hier finden Sie Weblinks zu unseren vergangenen Bällen des Verein Schulball Akademisches Gymnasium Wien."
         />
         <ol className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 -mx-4 mt-4">
+        <li className="group">
+            <ArticleCard
+              external
+              link="https://2022.schulball-akg.at/"
+              title="Casino Royale (2022)"
+              description="Der 43. Schulball des AKG war der erste seit Beginn der Corona Pandemie und fand zum Thema Casino Royale im Palais Auersperg statt."
+            />
+          </li>
           <li className="group">
             <ArticleCard
               external
