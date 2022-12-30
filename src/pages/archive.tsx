@@ -27,7 +27,7 @@ const Archive: React.FC<PageProps> = ({ data, location }) => {
               external
               link="https://2022.schulball-akg.at/"
               title="Casino Royale (2022)"
-              description="Der 43. Schulball des AKG war der erste seit Beginn der Corona Pandemie und fand zum Thema Casino Royale im Palais Auersperg statt."
+              description="Der 43. Schulball des AKG war der erste seit Beginn der Corona Pandemie und fand zum Thema „Casino Royale“ im Palais Auersperg statt."
             />
           </li>
           <li className="group">
