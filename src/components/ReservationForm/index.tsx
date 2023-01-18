@@ -55,8 +55,8 @@ export const ReservationForm = () => {
     (guest) => guest.student === false
   ).length;
   const countTable = guestList.filter((guest) => guest.table === true).length;
-  const totalVVK = countStudent * 35 + countRegular * 45 + countTable * 18;
-  const totalAK = countStudent * 45 + countRegular * 55 + countTable * 18;
+  const totalVVK = countStudent * 35 + countRegular * 45 + countTable * 15;
+  const totalAK = countStudent * 45 + countRegular * 55 + countTable * 15;
   const diff = totalAK - totalVVK;
 
   const handleScroll = (event) => {
@@ -148,8 +148,8 @@ export const ReservationForm = () => {
         </section>
         <h2>Tischkarten</h2>
         <p>
-          <b>Sie wollen noch extra Tischkartenplätze à 18 € kaufen ?</b> <br />
-          Dann schreiben Sie uns bitte eine Email mit ihrem Namen und Telefonnummer und der Anzahl der Plätze an masquerade2022@schulball-akg.at <br />
+          <b>Sie wollen noch extra Tischkartenplätze à 15 € kaufen ?</b> <br />
+          Dann schreiben Sie uns bitte eine Email mit ihrem Namen und Telefonnummer und der Anzahl der Plätze an masquerade2023@schulball-akg.at <br />
           Wir werden Ihre Bestellung umgehend bearbeiten. < br />
           Vielen Dank!!
         </p>
@@ -158,11 +158,6 @@ export const ReservationForm = () => {
         <section id="order">
           <div>
             <h2 className="font-sans">Meine Bestellung</h2>
-            <p>
-              Aufgrund der COVID Bestimmungen müssen Karten personalisiert sein.
-              Alle eingegebenen Daten unterliegen dem Datenschutzgesetz und
-              werden nach dem Schulball gelöscht.
-            </p>
           </div>
           {guestList.map((x, i) => {
             return (
@@ -217,7 +212,7 @@ export const ReservationForm = () => {
                         onChange={(e) => handleCheckboxChange(e, i)}
                         className="border-2 focus:border-skin-primary"
                       />
-                      <span>Tisch Sitzplatz (€ 18,-) (optional)</span>
+                      <span>Tisch Sitzplatz (€ 15,-) (optional)</span>
                     </label>
                   </div>
                 </section>
