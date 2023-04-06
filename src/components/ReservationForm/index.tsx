@@ -108,11 +108,12 @@ export const ReservationForm = () => {
         </p>
         <h3>WANN?</h3>
         <p>
-        Am Mittwoch <b>22. März</b> ab der Großen Pause <b>09:45 bis 12 Uhr</b> gibt es den ersten offiziellen Kartenvorverkauf in der Schule. <br></br>
-        <b>Wo:</b> im 2. Stock im Gang vor dem Sekretariat.<br></br> <br></br>
-        <b>2. Termin:</b> eine Woche später, 29. März 09:45 bis 11 Uhr <br></br> 
-        Weitere Termine folgen dann nach den Osterferien!
+          Die <b>neuen Termine</b> nach den Osterferien: <br></br>
+          Freitag, 14. April (09:45 bis 11:05) <br></br>
+          Mittwoch, 19. April (09:45 bis 11:05) <br></br>
+          Mittwoch, 26. April (09:45 bis 11:05) <br></br>
         </p>
+  
         <h3>WO?</h3>
         <p>
           2. Stock im AkG, vor dem Lehrer*innenzimmer
