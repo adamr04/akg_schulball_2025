@@ -99,6 +99,8 @@ export const ReservationForm = () => {
         copy=""
       />
       <div className="form">
+        
+        <h2>Der Online Kartenvorverkauf hat geendet.</h2>
         <h2>Kartenverkauf und -abholung</h2>
         <p>ONLINE gekaufte Karten können nach den Osterferien 2023 in der Schule zu den Vorverkaufszeiten abgeholt bzw. direkt an der Abendkasse am 17. Mai 2023 entgegengenommen werden. <br></br>
           <br></br>
