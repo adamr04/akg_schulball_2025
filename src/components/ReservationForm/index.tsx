@@ -101,21 +101,18 @@ export const ReservationForm = () => {
       <div className="form">
         
         <h2>Der Online Kartenvorverkauf hat geendet.</h2>
+        <h3>Letzter Live-Kartenvorverkaufstag im AkG: 16. Mai 2023, 09:45 bis 11:05.</h3>
+        
         <h2>Kartenverkauf und -abholung</h2>
-        <p>ONLINE gekaufte Karten können nach den Osterferien 2023 in der Schule zu den Vorverkaufszeiten abgeholt bzw. direkt an der Abendkasse am 17. Mai 2023 entgegengenommen werden. <br></br>
+        <p>ONLINE gekaufte Karten können am Dienstag den 16. Mai 2023 in der Zeit von 09:45 bis 11:05 Uhr abgeholt bzw. direkt an der Abendkasse am 17. Mai 2023 entgegengenommen werden. <br></br>
           <br></br>
-          Der Online Kartenvorverkauf endet am Donnerstag den 11. Mai 2023 ! <br></br>
-          Die Online Bezahlung ist bis Sonntag den 14. Mai 2023 möglich. <br></br>
+          Der Online Kartenvorverkauf hat am Donnerstag den 11. Mai 2023 geendet ! <br></br>
+          Die Online Bezahlung ist bis Sonntag den 14. Mai 2023 möglich. <br></br> <br></br>
           Der letzte Live-Kartenvorverkaufstag im AkG findet am Dienstag den 16. Mai 2023 in der Zeit von 09:45 bis 11:05 Uhr statt.
  
         </p>
         <h3>WANN?</h3>
         <p>
-          <b>Die neuen Termine nach den Osterferien:</b> <br></br> <br></br>
-          Donnerstag, 20. April (09.45 bis 11:05) <br></br>
-          Mittwoch, 26. April (09:45 bis 11:05) <br></br>
-          Montag, 08. Mai (08:50 bis 10:30) <br></br> <br></br>
-
           <b>Letzter Vorverkaufstag in der Schule:</b> <br></br>
           Dienstag, 16. Mai (09:45 bis 11:05)
 
