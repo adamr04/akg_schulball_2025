@@ -19,7 +19,7 @@ const Home: React.FC<PageProps> = ({ data, location }) => {
       >
 
         <p>
-          Der 44. Schulball des Akademischen Gymnasium Wien hat sich dieses Jahr einem Maskenball verschrieben.<br></br> <br></br>
+          Der 44. Schulball des Akademischen Gymnasium Wien war ein sehr großer Erfolg.<br></br> <br></br>
           Danke für euren Besuch! Wir freuen uns, euch nächstes Jahr wiederzusehen.<br></br> <br></br>
 
           Liebe Ballgäste, <br></br>
