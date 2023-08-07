@@ -10,7 +10,7 @@ const Home: React.FC<PageProps> = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="Der 45. Schulball des Akademischen Gymnasiums Wien" />
+      <Seo title="45. Schulball Akademisches Gymnasium Wien" />
       <Hero
         title="OSCARNACHT"
         date="17. Mai 2024"
