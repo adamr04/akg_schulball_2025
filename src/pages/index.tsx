@@ -10,23 +10,23 @@ const Home: React.FC<PageProps> = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="Der 44. Schulball des Akademischen Gymnasiums Wien" />
+      <Seo title="Der 45. Schulball des Akademischen Gymnasiums Wien" />
       <Hero
-        title="MASQUERADE"
-        date="17. Mai 2023"
+        title="OSCARNACHT"
+        date="17. Mai 2024"
         location="Palais Ferstel"
         video
       >
 
         <p>
-          Der 44. Schulball des Akademischen Gymnasium Wien war ein sehr großer Erfolg.<br></br> <br></br>
-          Danke für euren Besuch! Wir freuen uns, euch nächstes Jahr wiederzusehen.<br></br> <br></br>
+          Unser nächster Maturaball findet am 17. Mai 2024 im Palais Ferstel zum Thema "Oscarnacht" statt.<br></br> <br></br>
+          Wir freuen uns auf ein zahlreiches Kommen und auf ein Wiedersehen 2024.<br></br> <br></br>
 
           Liebe Ballgäste, <br></br>
-          <a href="https://drive.google.com/drive/folders/10ExneqG1h-kI22Z3G9hnD8LhSlr-F1rh?usp=share_link">hier der Link zu Google Drive und den Ballfotos.</a> <br></br>
+          <a href="https://drive.google.com/drive/folders/10ExneqG1h-kI22Z3G9hnD8LhSlr-F1rh?usp=share_link">hier der Link zu den Ballfotos 2023.</a> <br></br>
           Viel Freude damit! <br></br>
           Herzliche Grüße, <br></br>
-          Ihr Schulball-Komitee 2023
+          Ihr Schulball-Komitee 2023/24
         </p>
 
         {/* <iframe width="420" height="315" class="center" src="https://www.youtube.com/embed/urJgFAeO2xw"> </iframe> */}
