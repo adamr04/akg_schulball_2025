@@ -100,22 +100,23 @@ export const ReservationForm = () => {
       />
       <div className="form">
         
-        <h2>Der Online Kartenvorverkauf hat geendet.</h2>
-        <h3>Letzter Live-Kartenvorverkaufstag im AkG: 16. Mai 2023, 09:45 bis 11:05.</h3>
+        <h2>Der Online Kartenvorverkauf für den 45. Schulball startet mit dem Frühbucherbonus.</h2>
+        <h3>Alle die ihre Eintrittskarte vor dem 24. Dezember 2023 erwerben, 
+          bezahlen den Sondervorverkaufspreis von 35.-- Euro für ermässigte Karten 
+          und 45.-- Euro für die Erwachsenenkarte.</h3>
         
         <h2>Kartenverkauf und -abholung</h2>
-        <p>ONLINE gekaufte Karten können am Dienstag den 16. Mai 2023 in der Zeit von 09:45 bis 11:05 Uhr abgeholt bzw. direkt an der Abendkasse am 17. Mai 2023 entgegengenommen werden. <br></br>
+        <p>Alle ONLINE gekauften Karten nach den Semesterferien an den Vorverkaufstagen in der Schule abgeholt werden, 
+           bzw. direkt an der Abendkasse am 17. Mai 2024 entgegengenommen werden.<br></br>
           <br></br>
-          Der Online Kartenvorverkauf hat am Donnerstag den 11. Mai 2023 geendet ! <br></br>
-          Die Online Bezahlung ist bis Sonntag den 14. Mai 2023 möglich. <br></br> <br></br>
-          Der letzte Live-Kartenvorverkaufstag im AkG findet am Dienstag den 16. Mai 2023 in der Zeit von 09:45 bis 11:05 Uhr statt.
+          Der Online Kartenvorverkauf endet am 9. Mai 2024 um 00:00! <br></br>
+          <br></br>
+          Der letzte Live-Kartenvorverkaufstag im AkG findet am Dienstag den 14. Mai 2024 in der Zeit von 09:45 bis 11:05 Uhr statt.
  
         </p>
         <h3>WANN?</h3>
         <p>
-          <b>Letzter Vorverkaufstag in der Schule:</b> <br></br>
-          Dienstag, 16. Mai (09:45 bis 11:05)
-
+          <b>Alle Vorverkaufstermine werden nach den Semesterferien hier veröffentlicht.</b> <br></br>
         </p>
   
         <h3>WO?</h3>
@@ -131,7 +132,8 @@ export const ReservationForm = () => {
               </dt>
               <dd className="mt-1 text-lg">
                 <div>
-                  € 35,– (Vorverkauf)
+                  € 35,– (Vorverkauf bis 31. Dez 2023)
+                  <br />€ 40,– (Vorverkauf 1. Jan bis 14. Mai 2024)
                   <br />€ 45,– (Abendkassa)
                 </div>
                 <div className="text-sm mt-2">
@@ -146,7 +148,8 @@ export const ReservationForm = () => {
               </dt>
               <dd className="mt-1 text-lg">
                 <div>
-                  € 45,– (Vorverkauf)
+                  € 45,– (Vorverkauf bis 31. Dez 2023)
+                  <br />€ 50,– (Vorverkauf 1. Jan bis 14. Mai 2024)
                   <br />€ 55,– (Abendkassa)
                 </div>
               </dd>
@@ -156,7 +159,7 @@ export const ReservationForm = () => {
         <h2>Tischkarten</h2>
         <p>
           <b>Sie wollen noch extra Tischkartenplätze à 15 € kaufen ?</b> <br />
-          Dann schreiben Sie uns bitte eine Email mit ihrem Namen und Telefonnummer und der Anzahl der Plätze an masquerade2023@schulball-akg.at <br />
+          Dann schreiben Sie uns bitte eine Email mit ihrem Namen und Telefonnummer und der Anzahl der Plätze an oscarnight2024@schulball-akg.at <br />
           Wir werden Ihre Bestellung umgehend bearbeiten. < br />
           Vielen Dank!!
         </p>
