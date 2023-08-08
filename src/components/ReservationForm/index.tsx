@@ -101,15 +101,15 @@ export const ReservationForm = () => {
       <div className="form">
         
         <h2>Der Online Kartenvorverkauf für den 45. Schulball startet mit dem Frühbucherbonus.</h2>
-        <h3>Alle die ihre Eintrittskarte vor dem 24. Dezember 2023 erwerben, 
-          bezahlen den Sondervorverkaufspreis von 35.-- Euro für ermässigte Karten 
+        <h3>Alle die ihre Eintrittskarte vor dem 31. Dezember 2023 erwerben, 
+          bezahlen den Supervorverkaufspreis von 35.-- Euro für ermäßigte Karten 
           und 45.-- Euro für die Erwachsenenkarte.</h3>
         
         <h2>Kartenverkauf und -abholung</h2>
         <p>Alle ONLINE gekauften Karten nach den Semesterferien an den Vorverkaufstagen in der Schule abgeholt werden, 
            bzw. direkt an der Abendkasse am 17. Mai 2024 entgegengenommen werden.<br></br>
           <br></br>
-          Der Online Kartenvorverkauf endet am 9. Mai 2024 um 00:00! <br></br>
+          Der Online Kartenvorverkauf endet am 9. Mai 2024 um 23:59! <br></br>
           <br></br>
           Der letzte Live-Kartenvorverkaufstag im AkG findet am Dienstag den 14. Mai 2024 in der Zeit von 09:45 bis 11:05 Uhr statt.
  
@@ -132,8 +132,8 @@ export const ReservationForm = () => {
               </dt>
               <dd className="mt-1 text-lg">
                 <div>
-                  € 35,– (Vorverkauf bis 31. Dez 2023)
-                  <br />€ 40,– (Vorverkauf 1. Jan bis 14. Mai 2024)
+                  € 35,– (VV. 1. Okt bis 31. Dez 2023)
+                  <br />€ 40,– (VV. 1. Jan bis 14. Mai 2024)
                   <br />€ 45,– (Abendkassa)
                 </div>
                 <div className="text-sm mt-2">
@@ -148,17 +148,19 @@ export const ReservationForm = () => {
               </dt>
               <dd className="mt-1 text-lg">
                 <div>
-                  € 45,– (Vorverkauf bis 31. Dez 2023)
-                  <br />€ 50,– (Vorverkauf 1. Jan bis 14. Mai 2024)
+                  € 45,– (VV. 1. Okt bis 31. Dez 2023)
+                  <br />€ 50,– (VV. 1. Jan bis 14. Mai 2024)
                   <br />€ 55,– (Abendkassa)
                 </div>
               </dd>
             </div>
           </dl>
         </section>
-        <h2>Tischkarten</h2>
+        <h2>Tischplatzkarten</h2>
         <p>
-          <b>Sie wollen noch extra Tischkartenplätze à 15 € kaufen ?</b> <br />
+          <b>€ 15,– (VV. 17. Okt 2023 bis 14. Mai 2024)
+            <br/ >€ 20,– (Abendkasse, je nach Verfügbarkeit)</b> <br />
+          Sie wollen mehrere Tischplatzkarten gleichzeitig erwerben und wollen zusammensitzen?
           Dann schreiben Sie uns bitte eine Email mit ihrem Namen und Telefonnummer und der Anzahl der Plätze an oscarnight2024@schulball-akg.at <br />
           Wir werden Ihre Bestellung umgehend bearbeiten. < br />
           Vielen Dank!!
