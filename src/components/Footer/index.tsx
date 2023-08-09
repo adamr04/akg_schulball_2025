@@ -24,7 +24,7 @@ export const Footer: React.FC<EmptyProps> = () => {
         </span>
         <br />
         <span>
-          Email: masquerade2023@schulball-akg.at
+          Email: oscarnight2024@schulball-akg.at
         </span>
           <br />
         <span>
