@@ -321,7 +321,7 @@ export const ReservationForm = () => {
               </dl>
             </section>
           )}
-          {/* 
+          { 
           <button
             type="submit"
             disabled={
@@ -357,10 +357,9 @@ export const ReservationForm = () => {
               bestellen
             </span>
           </button>
-          */}
+          }
           <h2>
-            VORVERKAUF GESCHLOSSEN! <br></br>
-            RESTKARTEN NACH VERFÜGBARKEIT AN DER ABENDKASSE.
+            VORVERKAUF BEGINNT AM 1. OKTOBER!
           </h2>
           <p>
             <strong>Bitte beachten Sie: Eine Bestellung ist verbindlich</strong>
