@@ -5,7 +5,8 @@ type: article
 order: 2
 embeddedImagesLocal:
   - anzeige_delfiner_druck.png
-  - tanzschule_dorner.png
+  - delfinerKlein.jpeg
+  - innomotics.jpeg
   - muenze_oesterreich.jpg
   - hagan_lodge.jpg
   - repa_neo.png
@@ -20,22 +21,23 @@ embeddedImagesLocal:
   - loys.png
   - ludwig_reiter.png
   - moodley.jpg
-  - pagro.jpg
   - perfect_eagle_golf.jpeg
-  - rwa.jpg
   - sandra_reichel.jpg
   - wertinvest.jng
   - xpower.jpg
-  - zwettler.jpg
   - fortitudo.jpg
-  - anwaltmaier_1.jpg
   - logoPerfectMatch.jpg
+ 
 
 ---
 import { getImage, GatsbyImage } from 'gatsby-plugin-image';
 
+<div>
+  <GatsbyImage alt="" image={getImage(props.localImages[0])} objectFit="contain"/>
+</div>
+
+
 <div class="gallery gallery--square">
-    <GatsbyImage alt="" image={getImage(props.localImages[0])} objectFit="contain"/>
     <GatsbyImage alt="" image={getImage(props.localImages[1])} objectFit="contain"/>
     <GatsbyImage alt="" image={getImage(props.localImages[2])} objectFit="contain"/>
     <GatsbyImage alt="" image={getImage(props.localImages[3])} objectFit="contain"/>
@@ -61,4 +63,5 @@ import { getImage, GatsbyImage } from 'gatsby-plugin-image';
     <GatsbyImage alt="" image={getImage(props.localImages[23])} objectFit="contain"/>
     <GatsbyImage alt="" image={getImage(props.localImages[24])} objectFit="contain"/>
     <GatsbyImage alt="" image={getImage(props.localImages[25])} objectFit="contain"/>
+    <GatsbyImage alt="" image={getImage(props.localImages[26])} objectFit="contain"/>
 </div>
