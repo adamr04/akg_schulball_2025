@@ -25,7 +25,7 @@ const Archive: React.FC<PageProps> = ({ data, location }) => {
         <li className="group">
             <ArticleCard
               external
-              link="https://2023.schulball-akg.at/"
+              link="https://schulball2023.netlify.app/"
               title="Masquerade (2023)"
               description="Der 44. Schulball fand zum Thema „Masquerade“ im Palais Ferstel statt."
             />
