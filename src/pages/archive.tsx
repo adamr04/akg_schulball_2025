@@ -25,6 +25,14 @@ const Archive: React.FC<PageProps> = ({ data, location }) => {
         <li className="group">
             <ArticleCard
               external
+              link="https://2023.schulball-akg.at/"
+              title="Masquerade (2023)"
+              description="Der 44. Schulball fand zum Thema „Masquerade“ im Palais Ferstel statt."
+            />
+          </li>
+        <li className="group">
+            <ArticleCard
+              external
               link="https://2022.schulball-akg.at/"
               title="Casino Royale (2022)"
               description="Der 43. Schulball des AKG war der erste seit Beginn der Corona Pandemie und fand zum Thema „Casino Royale“ im Palais Auersperg statt."
