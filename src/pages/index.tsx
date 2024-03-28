@@ -1,5 +1,5 @@
 import * as React from "react";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 import { INode, PageProps } from "@/definitions";
 import { Layout, ArticleCard, Container, Hero, Seo } from "@/components";
 import cover from "@/images/cover.png";
@@ -17,26 +17,37 @@ const Home: React.FC<PageProps> = ({ data, location }) => {
         location="Palais Ferstel"
         video
       >
-
         <p>
           Unser nächster Maturaball findet am 17. Mai 2024 im Palais Ferstel zum Thema "Oscarnacht" statt.<br></br> <br></br>
-          Wir freuen uns auf ein zahlreiches Kommen und auf ein Wiedersehen 2024.<br></br> <br></br>
-
+          Wir freuen uns auf ein zahlreiches Kommen und auf ein Wiedersehen 2024.
+        </p>
+        {/* Reservation Button */}
+        <div style={{ textAlign: 'center', margin: '20px 0' }}>
+          <a
+            href="https://schulball-akg.at/reservation"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-block',
+              background: '#8d271e',
+              color: '#fff',
+              padding: '10px 20px',
+              fontSize: '18px',
+              borderRadius: '5px',
+              textDecoration: 'none',
+            }}
+          >
+            Karten kaufen
+          </a>
+        </div>
+        <p>
+          <br></br>
           Liebe Ballgäste, <br></br>
           <a href="https://drive.google.com/drive/folders/10ExneqG1h-kI22Z3G9hnD8LhSlr-F1rh?usp=share_link">hier der Link zu den Ballfotos 2023.</a> <br></br>
           Viel Freude damit! <br></br>
           Herzliche Grüße, <br></br>
           Ihr Schulball-Komitee 2023/24
         </p>
-
-        {/* <iframe width="420" height="315" class="center" src="https://www.youtube.com/embed/urJgFAeO2xw"> </iframe> */}
-
-        {/*
-        <div className="action">
-          <Link to="/reservation">Karten reservieren</Link>
-        </div>
-  */}
-
       </Hero>
       <Container>
         <ol className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
