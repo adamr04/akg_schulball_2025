@@ -91,3 +91,14 @@ h2, .h2 {
 #schulballTeaser {
   text-align: center;
 }
+
+.hero-title {
+  font-size: 36px; /* Default font size for larger screens */
+}
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: 24px; /* Smaller font size for small screens */
+  }
+}
