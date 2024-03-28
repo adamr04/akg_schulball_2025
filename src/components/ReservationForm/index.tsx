@@ -120,17 +120,24 @@ export const ReservationForm = () => {
         <p>Alle ONLINE gekauften Karten nach den Semesterferien an den Vorverkaufstagen in der Schule abgeholt werden, 
            bzw. direkt an der Abendkasse am 17. Mai 2024 entgegengenommen werden.<br></br>
           <br></br>
-          Der Online Kartenvorverkauf endet am 9. Mai 2024 um 23:59! <br></br>
+          <b>Der Online Kartenvorverkauf endet am 9. Mai 2024 um 23:59!</b> <br></br>
           <br></br>
           Der letzte Live-Kartenvorverkaufstag im AkG findet am Dienstag den 14. Mai 2024 in der Zeit von 09:45 bis 11:05 Uhr statt.
  
         </p>
-        <h3>WANN?</h3>
+        <h3>Karten Vorkauf und Abholung bezahlter Ballkarten in der Schule</h3>
+        <b><u>WANN?</u></b>
         <p>
-          <b>Alle Vorverkaufstermine werden nach den Semesterferien hier veröffentlicht.</b> <br></br>
+        Mittwoch, 3. April - 12:50 bis 14:05<br></br>
+        Dienstag, 9. April - 09:45 bis 11:05<br></br>
+        Dienstag, 16. April - 09:45 bis 11:05<br></br>
+        Dienstag, 23. April - 09:45 bis 11:05<br></br>
+        Dienstag, 7. Mai - 09:45 bis 11:05<br></br>
+        letzter Verkaufstag in der Schule: Dienstag, 14. Mai - 09:45 bis 11:05
+
         </p>
   
-        <h3>WO?</h3>
+        <b><u>WO?</u></b>
         <p>
           2. Stock im AkG, vor dem Lehrer*innenzimmer
         </p>
