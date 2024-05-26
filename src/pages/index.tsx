@@ -21,7 +21,9 @@ const Home: React.FC<PageProps> = ({ data, location }) => {
           Unser nächster Maturaball findet am 17. Mai 2024 im Palais Ferstel zum Thema "Oscarnacht" statt.<br></br> <br></br>
           Wir freuen uns auf ein zahlreiches Kommen und auf ein Wiedersehen 2024.
         </p>
+        
         {/* Reservation Button */}
+        {/*
         <div style={{ textAlign: 'center', margin: '20px 0' }}>
           <a
             href="https://schulball-akg.at/reservation"
@@ -40,6 +42,7 @@ const Home: React.FC<PageProps> = ({ data, location }) => {
             Karten kaufen
           </a>
         </div>
+        */}
         <p>
           <br></br>
           Liebe Ballgäste, <br></br>

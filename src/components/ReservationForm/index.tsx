@@ -111,10 +111,7 @@ export const ReservationForm = () => {
       />
       <div className="form">
         
-        <h2>Der Online Kartenvorverkauf für den 45. Schulball startet mit dem Frühbucherbonus.</h2>
-        <h3>Alle die ihre Eintrittskarte vor dem 31. Dezember 2023 erwerben, 
-          bezahlen den Supervorverkaufspreis von 35.-- Euro für ermäßigte Karten 
-          und 45.-- Euro für die Erwachsenenkarte.</h3>
+        <h2>Der Online Kartenvorverkauf hat geendet.</h2>
         
         <h2>Kartenverkauf und -abholung</h2>
         <p>Alle ONLINE gekauften Karten nach den Semesterferien an den Vorverkaufstagen in der Schule abgeholt werden, 
