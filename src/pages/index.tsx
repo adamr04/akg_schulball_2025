@@ -18,8 +18,8 @@ const Home: React.FC<PageProps> = ({ data, location }) => {
         video
       >
         <p>
-          Unser nächster Maturaball findet am 17. Mai 2024 im Palais Ferstel zum Thema "Oscarnacht" statt.<br></br> <br></br>
-          Wir freuen uns auf ein zahlreiches Kommen und auf ein Wiedersehen 2024.
+          Unser letzter Maturaball fand am 17. Mai 2024 im Palais Ferstel zum Thema "Oscarnacht" statt.<br></br> <br></br>
+          Wir freuen uns auf ein zahlreiches Kommen und auf ein Wiedersehen 2025.
         </p>
         
         {/* Reservation Button */}
