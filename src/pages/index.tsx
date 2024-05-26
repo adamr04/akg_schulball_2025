@@ -46,7 +46,7 @@ const Home: React.FC<PageProps> = ({ data, location }) => {
         <p>
           <br></br>
           Liebe Ballgäste, <br></br>
-          <a href="https://drive.google.com/drive/folders/10ExneqG1h-kI22Z3G9hnD8LhSlr-F1rh?usp=share_link">hier der Link zu den Ballfotos 2023.</a> <br></br>
+          <a href="https://www.picdrop.com/evamanhart/PKjrgDRb9H">hier der Link zu den Ballfotos 2024.</a> <br></br>
           Viel Freude damit! <br></br>
           Herzliche Grüße, <br></br>
           Ihr Schulball-Komitee 2023/24
