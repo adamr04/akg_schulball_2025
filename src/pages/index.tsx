@@ -10,15 +10,15 @@ const Home: React.FC<PageProps> = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="45. Schulball Akademisches Gymnasium Wien" />
+      <Seo title="46. Schulball Akademisches Gymnasium Wien" />
       <Hero
-        title="OSCARNACHT"
-        date="17. Mai 2024"
+        title="SECRET GARDEN"
+        date="17. Mai 2025"
         location="Palais Ferstel"
         video
       >
         <p>
-          Unser letzter Maturaball fand am 17. Mai 2024 im Palais Ferstel zum Thema "Oscarnacht" statt.<br></br> <br></br>
+          Der 46. Maturaball des Akademischen Gymnasium Wien öffnet am 17. Mai 2025 im Palais Ferstel seine Pforten und entführt in den "Secret Garden".<br></br> <br></br>
           Wir freuen uns auf ein zahlreiches Kommen und auf ein Wiedersehen 2025.
         </p>
         
@@ -46,10 +46,10 @@ const Home: React.FC<PageProps> = ({ data, location }) => {
         <p>
           <br></br>
           Liebe Ballgäste, <br></br>
-          <a href="https://www.picdrop.com/evamanhart/PKjrgDRb9H">hier der Link zu den Ballfotos 2024.</a> <br></br>
+          <a href="https://www.picdrop.com/evamanhart/PKjrgDRb9H">hier der Link zu den Ballfotos "Oscarnight" 2024.</a> <br></br>
           Viel Freude damit! <br></br>
           Herzliche Grüße, <br></br>
-          Ihr Schulball-Komitee 2023/24
+          Ihr Schulball-Komitee 2024/25
         </p>
       </Hero>
       <Container>

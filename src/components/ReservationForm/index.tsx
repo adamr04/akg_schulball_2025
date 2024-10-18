@@ -111,26 +111,26 @@ export const ReservationForm = () => {
       />
       <div className="form">
         
-        <h2>Der Online Kartenvorverkauf hat geendet.</h2>
+        <h2>Der Online Kartenvorverkauf beginnt am 17. Oktober 2024.</h2>
         
         <h2>Kartenverkauf und -abholung</h2>
-        <p>Alle ONLINE gekauften Karten nach den Semesterferien an den Vorverkaufstagen in der Schule abgeholt werden, 
-           bzw. direkt an der Abendkasse am 17. Mai 2024 entgegengenommen werden.<br></br>
+        <p>Alle ONLINE gekauften Karten können an den Vorverkaufstagen in der Schule abgeholt werden, 
+           bzw. direkt an der Abendkasse am 17. Mai 2025 entgegengenommen werden.<br></br>
           <br></br>
-          <b>Der Online Kartenvorverkauf endet am 9. Mai 2024 um 23:59!</b> <br></br>
+          <b>Der Online Kartenvorverkauf endet am 11. Mai 2025 um 23:59!</b> <br></br>
           <br></br>
-          Der letzte Live-Kartenvorverkaufstag im AkG findet am Dienstag den 14. Mai 2024 in der Zeit von 09:45 bis 11:05 Uhr statt.
+          Der letzte Live-Kartenvorverkaufstag im AkG findet am Dienstag den 14. Mai 2025 in der Zeit von 09:45 bis 11:05 Uhr statt.
  
         </p>
         <h3>Karten Vorkauf und Abholung bezahlter Ballkarten in der Schule</h3>
         <b><u>WANN?</u></b>
         <p>
-        Mittwoch, 3. April - 12:50 bis 14:05<br></br>
-        Dienstag, 9. April - 09:45 bis 11:05<br></br>
-        Dienstag, 16. April - 09:45 bis 11:05<br></br>
-        Dienstag, 23. April - 09:45 bis 11:05<br></br>
-        Dienstag, 7. Mai - 09:45 bis 11:05<br></br>
-        letzter Verkaufstag in der Schule: Dienstag, 14. Mai - 09:45 bis 11:05
+        Mittwoch, 2. April 2025 - 09:45 bis 11:05<br></br>
+        Mittwoch, 9. April 2025 - 09:45 bis 11:05<br></br>
+        Mittwoch, 23. April 2025 - 09:45 bis 11:05<br></br>
+        Mittwoch, 30. April 2025 - 09:45 bis 11:05<br></br>
+        Mittwoch, 7. Mai 2025 - 09:45 bis 11:05<br></br>
+        letzter Verkaufstag in der Schule: Mittwoch, 14. Mai 2025 - 09:45 bis 11:05
 
         </p>
   
@@ -143,28 +143,27 @@ export const ReservationForm = () => {
           <dl className="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2">
             <div className="sm:col-span-1">
               <dt>
-                <div className="text-lg font-semibold">Ermäßigt</div>
+                <div className="text-lg font-semibold">Ermäßigte Karten</div>
               </dt>
               <dd className="mt-1 text-lg">
                 <div>
-                  € 35,– (VV. 1. Okt bis 31. Dez 2023)
-                  <br />€ 40,– (VV. 1. Jan bis 14. Mai 2024)
+                  € 35,– (Supervorverkaufsbonus vom 17. Okt bis 31. Dez 2024)
+                  <br />€ 40,– (Vorverkauf. 1. Jan bis 14. Mai 2025)
                   <br />€ 45,– (Abendkassa)
                 </div>
                 <div className="text-sm mt-2">
-                  Schüler*in, Student*in, Lehrlinge, Zivildiener, Lehrer*in des
-                  AkG
+                  Schüler*innen, Student*innen, Lehrlinge, Zivildiener, Lehrer*innen
                 </div>
               </dd>
             </div>
             <div className="sm:col-span-1">
               <dt>
-                <div className="text-lg font-semibold">Regulär</div>
+                <div className="text-lg font-semibold">Regulärer KArtenpreis</div>
               </dt>
               <dd className="mt-1 text-lg">
                 <div>
-                  € 45,– (VV. 1. Okt bis 31. Dez 2023)
-                  <br />€ 50,– (VV. 1. Jan bis 14. Mai 2024)
+                  € 45,– (Supervorverkaufsbonus 1. Okt bis 31. Dez 2024)
+                  <br />€ 50,– (Vorverkauf 1. Jan bis 14. Mai 2025)
                   <br />€ 55,– (Abendkassa)
                 </div>
               </dd>
@@ -173,14 +172,15 @@ export const ReservationForm = () => {
         </section>
         <h2>Tischplatzkarten</h2>
         <p>
-          <b>€ 15,– (VV. 17. Okt 2023 bis 14. Mai 2024)
-            <br/ >€ 20,– (Abendkasse, je nach Verfügbarkeit)</b> <br />
+          <b>€ 15,– (Vorverkauf 17. Okt 2023 bis 14. Mai 2025)
+            <br/ >€ 25,– (Abendkasse, je nach Verfügbarkeit)</b> <br />
           Sie wollen mehrere Tischplatzkarten gleichzeitig erwerben und wollen zusammensitzen?
-          Dann schreiben Sie uns bitte eine Email mit ihrem Namen und Telefonnummer und der Anzahl der Plätze an oscarnight2024@schulball-akg.at <br />
+          Dann schreiben Sie uns bitte eine Email mit ihrem Namen und Telefonnummer und der Anzahl der Plätze an secretgarden2025@schulball-akg.at <br />
           Wir werden Ihre Bestellung umgehend bearbeiten. < br />
           Vielen Dank!!
         </p>
-        <b>BEREITS BEZAHLTE BZW. ABGEHOLTE KARTEN KÖNNEN NICHT MEHR STORNIERT WERDEN !</b>
+        <b>WICHTIG! 
+          BEREITS BEZAHLTE BZW. ABGEHOLTE KARTEN KÖNNEN NICHT MEHR STORNIERT ODER RÜCKERSTATTET WERDEN !</b>
         <hr className="mt-4 border-t-2 border-skin-fg" />
         <section id="order">
           <div>
@@ -401,13 +401,13 @@ export const ReservationForm = () => {
           </button>
           }
           <h2>
-            VORVERKAUF BEGINNT AM 1. OKTOBER!
+            VORVERKAUF BEGINNT AM 17. OKTOBER 2024!
           </h2>
           <p>
             <strong>Bitte beachten Sie: Eine Bestellung ist verbindlich</strong>
             , d.h. Sie erklären sich bereit, im Falle einer Zuteilung von
             Tickets, diese verbindlich anzunehmen. Sie können jedoch Ihre
-            Buchung vor Zuteilung von Tickets jederzeit ohne Kosten stornieren
+            Buchung vor Zuteilung der Tickets jederzeit ohne Kosten stornieren
             lassen. Schicken Sie uns dazu bitte ein E-Mail oder kontaktieren Sie
             uns telefonisch.
           </p>

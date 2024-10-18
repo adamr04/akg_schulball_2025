@@ -24,7 +24,7 @@ export const Footer: React.FC<EmptyProps> = () => {
         </span>
         <br />
         <span>
-          Email: oscarnight2024@schulball-akg.at
+          Email: secretgarden2025@schulball-akg.at
         </span>
           <br />
         <span>
@@ -36,7 +36,7 @@ export const Footer: React.FC<EmptyProps> = () => {
         <a href="https://www.ebcont.com" target="_blank">
           Digital is now
         </a>
-        , and Adam Radwan
+        , and Adam Radwan Updates by Alexander Kaimbacher
       </p>
     </footer>
   );
