@@ -13,7 +13,7 @@ const Home: React.FC<PageProps> = ({ data, location }) => {
       <Seo title="46. Schulball Akademisches Gymnasium Wien" />
       <Hero
         title="SECRET GARDEN"
-        date="17. Mai 2026"
+        date="17. Mai 2025"
         location="Palais Ferstel"
         video
       >
