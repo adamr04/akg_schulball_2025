@@ -66,7 +66,7 @@ export const ReservationForm = () => {
     (guest) => guest.student === false
   ).length;
   const countTable = guestList.filter((guest) => guest.table === true).length;
-  const totalVVK = countStudent * 40 + countRegular * 50 + countTable * 15;
+  const totalVVK = countStudent * 35 + countRegular * 45 + countTable * 15;
   const totalAK = countStudent * 45 + countRegular * 55 + countTable * 15;
   const diff = totalAK - totalVVK;
 
@@ -172,7 +172,7 @@ export const ReservationForm = () => {
         </section>
         <h2>Tischplatzkarten</h2>
         <p>
-          <b>€ 15,– (Vorverkauf 17. Okt 2023 bis 14. Mai 2025)
+          <b>€ 15,– (Vorverkauf 17. Okt 2024 bis 14. Mai 2025)
             <br/ >€ 25,– (Abendkasse, je nach Verfügbarkeit)</b> <br />
           Sie wollen mehrere Tischplatzkarten gleichzeitig erwerben und wollen zusammensitzen?
           Dann schreiben Sie uns bitte eine Email mit ihrem Namen und Telefonnummer und der Anzahl der Plätze an secretgarden2025@schulball-akg.at <br />
