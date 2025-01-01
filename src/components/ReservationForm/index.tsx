@@ -66,7 +66,7 @@ export const ReservationForm = () => {
     (guest) => guest.student === false
   ).length;
   const countTable = guestList.filter((guest) => guest.table === true).length;
-  const totalVVK = countStudent * 35 + countRegular * 45 + countTable * 15;
+  const totalVVK = countStudent * 40 + countRegular * 50 + countTable * 15;
   const totalAK = countStudent * 45 + countRegular * 55 + countTable * 15;
   const diff = totalAK - totalVVK;
 
