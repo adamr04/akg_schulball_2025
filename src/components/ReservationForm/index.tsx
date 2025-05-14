@@ -106,7 +106,7 @@ export const ReservationForm = () => {
   return (
     <React.Fragment>
       <HeaderSection
-        title="Karten bestellen"
+        title="Online Kartenverkauf beendet"
         copy=""
       />
       <div className="form">
@@ -364,6 +364,7 @@ export const ReservationForm = () => {
             </section>
           )}
           { 
+          /** 
           <button
             type="submit"
             disabled={
@@ -394,15 +395,16 @@ export const ReservationForm = () => {
                 ></path>
               </svg>
             )}
+            /
             <span>
               {guestList[0].guestName && "(" + guestList.length + ")"} Karten
               bestellen
             </span>
+            
+            
           </button>
+          */
           }
-          <h2>
-            VORVERKAUF BEGINNT AM 17. OKTOBER 2024!
-          </h2>
           <p>
             <strong>Bitte beachten Sie: Eine Bestellung ist verbindlich</strong>
             , d.h. Sie erklären sich bereit, im Falle einer Zuteilung von
